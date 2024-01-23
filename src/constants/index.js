@@ -46,10 +46,6 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
     title: "Backend Developer",
     icon: backend,
   },
@@ -73,10 +69,6 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
   },
@@ -97,21 +89,13 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
   },
   {
     name: "figma",
     icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  }
 ];
 
 const experiences = [
@@ -172,42 +156,35 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "I'm thanking you for all the efforts you put into this project. Also you have sacrificed your valuable time for this project even in your exam times. Even though it's a new tech stacks to you, you tried to learn and grasp new things.. it's good. Keep it up, never stop learning.",
+    name: "AKshay Surendran",
+    designation: "SDE",
+    company: "Wahni.io",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "I'm thanking you for all the efforts you put into this project. Also you have sacrificed your valuable time for this project even in your exam times. Even though it's a new tech stacks to you, you tried to learn and grasp new things.. it's good. Keep it up, never stop learning.",
+    name: "AKshay Surendran",
+    designation: "SDE",
+    company: "Wahni.io",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "I'm thanking you for all the efforts you put into this project. Also you have sacrificed your valuable time for this project even in your exam times. Even though it's a new tech stacks to you, you tried to learn and grasp new things.. it's good. Keep it up, never stop learning.",
+    name: "AKshay Surendran",
+    designation: "SDE",
+    company: "Wahni.io",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "It Solutions",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      " A testament to excellence, exhibits 25+ pages with diverse button functionalities. Focused on promoting our role as Implementation Partners for ERPNext, it's built with Next.js, and features sleek design using Tailwind CSS and Material Tailwind.",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
+        name: "Next",
         color: "green-text-gradient",
       },
       {
@@ -216,7 +193,7 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/alsaif2812/Intermediate",
   },
   {
     name: "Job IT",
