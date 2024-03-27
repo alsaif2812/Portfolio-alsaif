@@ -16,16 +16,21 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#915EFF]'>Al Saif</span>
+            Hi, I'm <span className='text-[#915EFF]'>MOHD AL SAIF</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             Full Stack Developer: Masters both front-end and back-end technologies,  <br className='sm:block hidden' />
             creating end-to-end solutions with diverse skills in development, databases, and frameworks.
           </p>
+
+        </div>
+        <div className='flex flex-col justify-center items-center mt-5'>
+          <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
+          <div className='w-1 sm:h-80 h-40 violet-gradient' />
         </div>
       </div>
-
       <ComputersCanvas />
+
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
@@ -35,7 +40,6 @@ const Hero = () => {
                 y: [0, 24, 0],
               }}
               transition={{
-                duration: 1.5,
                 repeat: Infinity,
                 repeatType: "loop",
               }}
@@ -44,6 +48,7 @@ const Hero = () => {
           </div>
         </a>
       </div>
+
     </section>
   );
 };
